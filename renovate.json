@@ -11,5 +11,13 @@
   },
   "enabledManagers": [
     "github-actions"
+  ],
+  "packageRules": [
+    {
+      "matchFileNames": [
+        ".github/workflows/ci.yml"
+      ],
+      "pinDigests": true
+    }
   ]
 }
