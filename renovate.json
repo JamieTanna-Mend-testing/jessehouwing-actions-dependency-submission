@@ -8,5 +8,8 @@
     "schedule": [
       "at any time"
     ]
-  }
+  },
+  "enabledManagers": [
+    "github-actions"
+  ]
 }
