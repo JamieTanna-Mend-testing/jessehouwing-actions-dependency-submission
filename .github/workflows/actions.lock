@@ -4,11 +4,11 @@
 version: 'v0.0.2'
 workflows:
     '.github/workflows/action-example-checker.yaml':
-        - 'actions/checkout@v7.0.0'
+        - 'actions/checkout@v7.0.1'
         - 'jessehouwing/actions-example-checker@v0.0.11'
         - 'step-security/harden-runner@v2.19.4'
     '.github/workflows/actions-dependency-submission.yml':
-        - 'actions/checkout@v7.0.0'
+        - 'actions/checkout@v7.0.1'
         - 'actions/dependency-review-action@v5.0.0'
         - 'jessehouwing/actions-dependency-submission@v1.0.15'
         - 'step-security/harden-runner@v2.19.4'
@@ -16,28 +16,28 @@ workflows:
         - 'jessehouwing/actions-semver-checker@v2.1.0'
         - 'step-security/harden-runner@v2.19.4'
     '.github/workflows/check-dist.yml':
-        - 'actions/checkout@v7.0.0'
+        - 'actions/checkout@v7.0.1'
         - 'actions/setup-node@v7.0.0'
         - 'actions/upload-artifact@v7.0.1'
         - 'licensee/setup-licensed@v1.3.2'
         - 'ruby/setup-ruby@v1.314.0'
         - 'step-security/harden-runner@v2.19.4'
     '.github/workflows/ci.yml':
-        - 'actions/checkout@v7.0.0'
+        - 'actions/checkout@v7.0.1'
         - 'actions/setup-node@v7.0.0'
         - 'step-security/harden-runner@v2.19.4'
     '.github/workflows/copilot-setup-steps.yml':
-        - 'actions/checkout@v7.0.0'
+        - 'actions/checkout@v7.0.1'
         - 'actions/setup-node@v7.0.0'
         - 'step-security/harden-runner@v2.19.4'
     '.github/workflows/licensed.yml':
-        - 'actions/checkout@v7.0.0'
+        - 'actions/checkout@v7.0.1'
         - 'actions/setup-node@v7.0.0'
         - 'licensee/setup-licensed@v1.3.2'
         - 'ruby/setup-ruby@v1.314.0'
         - 'step-security/harden-runner@v2.19.4'
     '.github/workflows/linter.yml':
-        - 'actions/checkout@v7.0.0'
+        - 'actions/checkout@v7.0.1'
         - 'actions/setup-node@v7.0.0'
         - 'ibiqlik/action-yamllint@v3.1.1'
         - 'raven-actions/actionlint@v2.1.2'
@@ -48,9 +48,9 @@ dependencies:
         commit: 'sha1-cdf6c1fa76f9f475f3d7449005a359c84ca0f306'
         owner_id: 44036562
         repo_id: 215566462
-    'actions/checkout@v7.0.0':
-        ref: 'v7.0.0'
-        commit: 'sha1-9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0'
+    'actions/checkout@v7.0.1':
+        ref: 'v7.0.1'
+        commit: 'sha1-3d3c42e5aac5ba805825da76410c181273ba90b1'
         owner_id: 44036562
         repo_id: 197814629
     'actions/dependency-review-action@v5.0.0':
