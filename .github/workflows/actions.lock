@@ -20,7 +20,7 @@ workflows:
         - 'actions/setup-node@v7.0.0'
         - 'actions/upload-artifact@v7.0.1'
         - 'licensee/setup-licensed@v1.3.2'
-        - 'ruby/setup-ruby@v1.314.0'
+        - 'ruby/setup-ruby@v1.321.0'
         - 'step-security/harden-runner@v2.19.4'
     '.github/workflows/ci.yml':
         - 'actions/checkout@v7.0.0'
@@ -34,7 +34,7 @@ workflows:
         - 'actions/checkout@v7.0.0'
         - 'actions/setup-node@v7.0.0'
         - 'licensee/setup-licensed@v1.3.2'
-        - 'ruby/setup-ruby@v1.314.0'
+        - 'ruby/setup-ruby@v1.321.0'
         - 'step-security/harden-runner@v2.19.4'
     '.github/workflows/linter.yml':
         - 'actions/checkout@v7.0.0'
@@ -106,9 +106,9 @@ dependencies:
         uses:
             - 'actions/cache@cdf6c1fa76f9f475f3d7449005a359c84ca0f306'
             - 'actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd'
-    'ruby/setup-ruby@v1.314.0':
-        ref: 'v1.314.0'
-        commit: 'sha1-9eb537ca036ebaed86729dcb9309076e4c5c3b74'
+    'ruby/setup-ruby@v1.321.0':
+        ref: 'v1.321.0'
+        commit: 'sha1-95ef2b042f9d7a56d8268cba8559e2842e2ad01b'
         owner_id: 210414
         repo_id: 231208785
     'step-security/harden-runner@v2.19.4':
